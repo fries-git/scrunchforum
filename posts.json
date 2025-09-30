@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "author": "fries#4082",
+    "content": "ayo whats up ladies",
+    "createdAt": "2025-09-30T00:01:27.564Z",
+    "reactions": {
+      "Happy": 0,
+      "Neutral": 0,
+      "Sad": 0,
+      "Big Smile": 1,
+      "Yikes": 0,
+      "Wink": 0,
+      "Think": 0,
+      "Tounge": 0,
+      "Lol": 0,
+      "Mad": 0,
+      "Roll": 0,
+      "Cool": 0
+    },
+    "reactedBy": {
+      "fries": [
+        "Big Smile"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "author": "fries#4082",
+    "content": "a",
+    "createdAt": "2025-09-30T00:02:36.901Z",
+    "reactions": {
+      "Happy": 0,
+      "Neutral": 0,
+      "Sad": 0,
+      "Big Smile": 0,
+      "Yikes": 0,
+      "Wink": 0,
+      "Think": 0,
+      "Tounge": 0,
+      "Lol": 0,
+      "Mad": 0,
+      "Roll": 0,
+      "Cool": 0
+    },
+    "reactedBy": {}
+  },
+  {
+    "id": 3,
+    "author": "fries#4082",
+    "content": "yessir",
+    "createdAt": "2025-09-30T00:02:58.632Z",
+    "reactions": {
+      "Happy": 0,
+      "Neutral": 0,
+      "Sad": 0,
+      "Big Smile": 0,
+      "Yikes": 0,
+      "Wink": 0,
+      "Think": 0,
+      "Tounge": 0,
+      "Lol": 0,
+      "Mad": 0,
+      "Roll": 0,
+      "Cool": 0
+    },
+    "reactedBy": {}
+  }
+]

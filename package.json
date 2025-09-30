@@ -1,0 +1,13 @@
+{
+  "name": "forumserver",
+  "version": "1.0.0",
+  "description": "Simple forum-style server with channels, reactions, and file storage",
+  "main": "forumserver.js",
+  "scripts": {
+    "start": "node forumserver.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "body-parser": "^1.20.2"
+  }
+}
