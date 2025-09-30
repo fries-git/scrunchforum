@@ -183,7 +183,7 @@ const server = http.createServer((req, res) => {
     req.on('error', err => { if (!res.headersSent) sendJSON(res,500,{error:'request error'}); });
     return;
   }
-s
+
   sendJSON(res,404,{error:'not found'});
 });
 
