@@ -8,10 +8,8 @@ const PORT = 3000;
 const DATA_FILE = path.join(__dirname, 'posts.json');
 const EMOJIS = ["Happy","Neutral","Sad","Big Smile","Yikes","Wink","Think","Tounge","Lol","Mad","Roll","Cool"];
 const app = express();
-app.use(express.static('public'));
+app.use(express.static("public"));
 let posts = [];
-
-app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'public', 'index.html')));
 
 // Load posts from file
 try {
