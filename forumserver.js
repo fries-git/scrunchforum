@@ -10,6 +10,9 @@ const EMOJIS = ["Happy","Neutral","Sad","Big Smile","Yikes","Wink","Think","Toun
 const app = express();
 app.use(express.static("public"));
 let posts = [];
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "index.html"));
+});
 
 // Load posts from file
 try {
@@ -52,8 +55,15 @@ function sendJSON(res, status, obj) {
   });
   res.end(body);
 }
-
+app.use(express.static("public"));
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "index.html"));
+});
 const server = http.createServer((req, res) => {
+  app.use(express.static("public"));
+  app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "index.html"));
+  });
   const now = new Date().toISOString();
   console.log(`[${now}] ${req.method} ${req.url}`);
 
@@ -185,3 +195,4 @@ const server = http.createServer((req, res) => {
 
 
 server.listen(PORT,()=>console.log(`Server running at http://localhost:${PORT}`));
+
