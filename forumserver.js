@@ -12,7 +12,7 @@ app.use(express.static('public'));
 let posts = [];
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  res.sendFile(__dirname + '/public/index.html');
 });
 
 // Load posts from file
